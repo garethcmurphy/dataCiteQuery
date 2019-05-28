@@ -32,5 +32,6 @@ query = gql( """{
 data=client.execute(query)
 print(data["researcher"]["name"])
 
-pd.read_json(data)
+df=pd.DataFrame(data["researcher"]["publications"]["nodes"])
+print(df)
 #print(data.researcher.name)

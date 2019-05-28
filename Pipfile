@@ -6,6 +6,8 @@ name = "pypi"
 [packages]
 gql = "*"
 requests = "*"
+pandas = "*"
+ipykernel = "*"
 
 [dev-packages]
 
