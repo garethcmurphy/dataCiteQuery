@@ -8,6 +8,7 @@ gql = "*"
 requests = "*"
 pandas = "*"
 ipykernel = "*"
+jupyter = "*"
 
 [dev-packages]
 
